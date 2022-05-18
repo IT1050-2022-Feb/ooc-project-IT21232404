@@ -3,10 +3,10 @@
 #include "Developer.h"
 using namespace std;
 Developer::Developer(int Id, string name, string contact, string email) {
-    this->Id = Id;
-    this->name = name;
-    this->contact = contact;
-    this->email = email;
+    this->Id =Id;
+    this->name =name;
+    this->contact =contact;
+    this->email =email;
 
 }
 
