@@ -2,16 +2,17 @@
 
 #include <iostream>
 #include <string.h>
-#include "Developer.h"
+#include "Customer.h"
 using namespace std;
-Developer::Developer(int Id, string name, string contact, string email) {
-    this->Id =Id;
-    this->name =name;
-    this->contact =contact;
-    this->email =email;
+
+Customer::Customer(string name, string adress, int age) {
+    this->name = name;
+    this->adress = adress;
+    this->age = age;
 
 }
 
-Developer::~Developer()
+Customer::~Customer()
 {
+    cout<<"Customer object destroyed"<<endl;
 }

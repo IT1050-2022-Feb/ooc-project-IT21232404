@@ -1,16 +1,14 @@
 //file created by IT21234002
-
 #include <string.h>
 #include <iostream>
 #include "Staff.h"
 using namespace std;
-staff::staff(int id, string name, string contact, double salary, string position)
+staff::staff(string name, int age, string adress, float salary)
 {
-    this->id = id;
     this->name = name;
-    this->contact = contact;
+    this->age = age;
+    this->adress = adress;
     this->salary = salary;
-    this->position = position;
 }
 
 staff::~staff()
