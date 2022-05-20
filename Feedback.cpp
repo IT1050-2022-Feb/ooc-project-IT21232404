@@ -4,13 +4,11 @@
 #include "Feedback.h"
 using namespace std;
 
-Feedback::Feedback(int refId, double rating, string comment, string email)
+Feedback::Feedback(string feedbackdescription)
 {
-    this->refId = refId;
-    this->rating = rating;
-    this->comment = comment;
-    this->email = email;
+    this->description = feedbackdescription;
 }
+
 
 Feedback::~Feedback()
 {
