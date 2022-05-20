@@ -5,11 +5,12 @@ using namespace std;
 class Feedback
 {
 private:
-    int refId;
-    double rating;
-    string comment;
-    string email;
+    string description;
+
 public:
-    Feedback(int refId, double rating, string comment, string email);
+    Feedback(string description);
     ~Feedback();
+    void displayFeedback();
 };
+
+
