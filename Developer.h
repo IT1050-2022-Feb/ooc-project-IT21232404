@@ -3,15 +3,14 @@
 #include <string.h>
 #include <iostream>
 using namespace std;
-
 class Developer
 {
 private:
-    int Id;
     string name;
-    string contact;
-    string email;
+    int age;
+    string adress;
 public:
-    Developer(int Id, string name, string contact, string email);
+    Developer(string name, int age, string adress);
     ~Developer();
+    void displayDeveloperDetails();
 };
