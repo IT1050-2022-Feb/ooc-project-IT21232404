@@ -1,5 +1,5 @@
 //File created by IT21232640
-//adeh I love you
+
 #include <iostream>
 #include <string.h>
 #include "Application.h"

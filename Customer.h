@@ -1,22 +1,21 @@
 //File created by IT21232404
+
 #include <string.h>
 #include <iostream>
 using namespace std;
 class Customer
 {
 private:
-    string Fname;
-    string Lname;
-    int ZipCode;
-    string contact;
-    string Email;
+    string name;
+    string adress;
     int age;
-    string country;
-    string DOB;
+
 
 public:
-    Customer(string Fname, string Lname, int ZipCode, string contact, string Email, int age, string country, string DOB);
+   Customer(string name, string adress, int age);
     ~Customer();
+    void displayCustomer();
 };
+
 
 
