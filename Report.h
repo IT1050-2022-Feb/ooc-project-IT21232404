@@ -6,15 +6,15 @@ using namespace std;
 class Report
 {
 private:
-    int RefId;
+  
     string Name;
-    string Title;
-    string Date;
-    string type;
+    int duration;
+
 
 
 public:
-    Report(int RefId, string Name, string Title, string Date, string type);
+    Report(string Name, int duration);
     ~Report();
+    void displayReportDetails();
+    void generateReport();
 };
-
